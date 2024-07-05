@@ -5,7 +5,7 @@ class SSI
 {
     static void Main()
     {
-            // User experience stuff
+            // SSI - Release A (WIP)
             Console.WriteLine("SSI - SpicetifySemiautomaticInstaller");
             Console.Write("Do you want to install Spicetify? (y/n): ");
             String choiceInst = Console.ReadLine();
