@@ -11,7 +11,6 @@ class SSI
             String choiceInst = Console.ReadLine();
             Console.Write("Do you want to install Spicetify Marketplace? (y/n): ");
             String choiceMktp = Console.ReadLine();
-            Console.Clear();
 
         // Check user's choice, and install Spicetify
         if (choiceInst == "y")
