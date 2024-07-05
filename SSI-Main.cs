@@ -1,11 +1,12 @@
 using System;
 using System.Diagnostics;
+
 class SSI
 {
     static void Main()
     {
             // User experience stuff
-            Console.WriteLine("SSI - SemiautomaticSpicetifyInstaller");
+            Console.WriteLine("SSI - SpicetifySemiautomaticInstaller");
             Console.WriteLine("Do you want to install Spicetify? (y/n): ");
             String choiceInst = Console.ReadLine();
             Console.WriteLine("Do you want to install Spicetify Marketplace? (y/n): ");
