@@ -5,12 +5,12 @@ class SSI
 {
     static void Main()
     {
-            // SSI - Release A (WIP)
+            // SSI - Release A (WIP) // Do we need to add Console.ReadKey();
             Console.WriteLine("SSI - SpicetifySemiautomaticInstaller");
             Console.Write("Do you want to install Spicetify? (y/n): ");
             String choiceInst = Console.ReadLine();
             Console.Write("Do you want to install Spicetify Marketplace? (y/n): ");
-            String choiceMktp = Console.ReadLine();
+            String choiceMktp = Console.ReadLine(); 
 
         // Check user's choice, and install Spicetify
         if (choiceInst == "y")
@@ -19,7 +19,7 @@ class SSI
         }
         else
         {
-            Console.WriteLine("POV: You start a Spicetify installer, and select not to install Spicetify");
+            Console.WriteLine("You just started a Spicetify installer, and selected not to install Spicetify(?)");
             Environment.Exit(0);
         }
         // Same for Spicetify Marketplace
