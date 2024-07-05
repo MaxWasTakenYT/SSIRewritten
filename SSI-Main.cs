@@ -7,9 +7,9 @@ class SSI
     {
             // User experience stuff
             Console.WriteLine("SSI - SpicetifySemiautomaticInstaller");
-            Console.WriteLine("Do you want to install Spicetify? (y/n): ");
+            Console.Write("Do you want to install Spicetify? (y/n): ");
             String choiceInst = Console.ReadLine();
-            Console.WriteLine("Do you want to install Spicetify Marketplace? (y/n): ");
+            Console.Write("Do you want to install Spicetify Marketplace? (y/n): ");
             String choiceMktp = Console.ReadLine();
             Console.Clear();
 
