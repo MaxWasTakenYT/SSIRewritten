@@ -19,8 +19,10 @@ class SSI
         }
         else
         {
-            Console.WriteLine("You just started a Spicetify installer, and selected not to install Spicetify(?)");
-            Environment.Exit(0);
+            /* For those (not autistic) who didn't understand WHY i did this,
+            i still don't know how to do like an "else: pass" thing or smth, so i
+            created a useless function to fill in the else inside this if function */
+            String uselessFuncKEKW = Console.ReadLine();
         }
         // Same for Spicetify Marketplace
         if (choiceMktp == "y")
