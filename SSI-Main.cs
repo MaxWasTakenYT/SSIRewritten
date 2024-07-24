@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Threading;
 
 class SSI
 {
@@ -34,6 +35,7 @@ class SSI
         else if (choiceInst == "n" && choiceMktp == "n")
         {
             Console.WriteLine("Don't wanna install anything? Ok, ok, your business..");
+            Thread.Sleep(1500);
             Environment.Exit(0);
         }
     }
