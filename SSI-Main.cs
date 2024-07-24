@@ -6,7 +6,7 @@ class SSI
 {
     static void Main()
     {
-            // SSI - Release A (WIP)
+            // SSI - Release 2.3
             Console.WriteLine("SSI - SpicetifySemiautomaticInstaller");
             Console.Write("Do you want to install Spicetify? (y/n): ");
             String choiceInst = Console.ReadLine();
