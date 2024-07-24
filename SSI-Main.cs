@@ -29,7 +29,7 @@ class SSI
         {
             Process.Start("powershell.exe", "-Command \"iwr -useb iwr -useb https://raw.githubusercontent.com/spicetify/marketplace/main/resources/install.ps1 | iex\"");
         }
-        else if (choiceInst == "y")
+        else if (choiceInst == "n")
         {
             Console.WriteLine("Spicetify installed without Spicetify Marketplace");
             Console.WriteLine("Exciting SSI..");
