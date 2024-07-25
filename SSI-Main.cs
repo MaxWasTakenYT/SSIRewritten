@@ -1,3 +1,7 @@
+// OLD CODE
+// GOING THROUGH A HELL OF A REWRITE USING QTSHARP
+// WAIT UNTIL IT'S DONE FOR AN UPDATED CODE HERE
+
 using System;
 using System.Diagnostics;
 using System.Drawing;
