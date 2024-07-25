@@ -1,7 +1,6 @@
 # 💡SSI - Semiautomatic Installer for Spicetify
-#### SSI is a (semi)automatic installer for the famous Spotify CLI tool, Spicetify, made in C#!🧪
+#### SSI is a (semi)automatic installer for the famous Spotify CLI tool, Spicetify🧪
 Why semiautomatic? Because i'm lazy, and couldn't think of a better name for this!🔥
 ## Releases🧪
-- [x] Debug release (CLI)
-- [ ] Release 1 (CLI)
-- [ ] Release 2 (CLI and GUI)
+- [ ] ~Release 1.0 (CLI and test GUI)~ // deleted because of the rewrite
+- [ ] Release 2.0 (GUI)
