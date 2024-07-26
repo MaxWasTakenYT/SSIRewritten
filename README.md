@@ -10,4 +10,4 @@ Any kind of help with the project is well accepted, if you have good web develop
 - [ ] Release 2.0 (GUI)
 <!-- wrongest spacer in code history -->
 ## Notes📝
-###### ⚠️After the 3(!) FULL REWRITES for the project, [check the timeline here](https://github.com/MaxWasTakenYT/SSIRewritten/), SSI has become SSIR (SSIRewritten)
+###### ⚠️After the 3(!) FULL REWRITES for the project, [check the timeline here](https://github.com/MaxWasTakenYT/SSIRewritten/blob/main/.fun-lore/timeline.md), SSI has become SSIR (SSIRewritten)
