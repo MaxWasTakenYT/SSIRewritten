@@ -10,7 +10,7 @@ SSaI - [S]()picetify[S]()emi[A]()utomatic[I]()nstaller (Idea #1)
 SSI - [S]()picetify[S]()emiautomatic[I]()nstaller (Idea #1-2)
 <br>🠛</br>
 SSIR (SSIRewritten) - [S]()picetify[S]()emiautomatic[I]()nstaller[Rewritten]() (Idea #3)
-=== END ===
+<br>=== EOL (more like EOP) ===</br>
 
 ### Idea [#1](): "C# and WinForms"
 So, the idea was simple, since i just finished the mockup CLI version, i _just_ had to learn a bit WinForms to connect the C# logic i just had finished to the GUI.
