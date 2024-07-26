@@ -1,11 +1,14 @@
-# 💡SSIR - Semiautomatic Installer for Spicetify
-#### SSIR is a (semi)automatic installer for the famous Spotify CLI tool, Spicetify🧪
-Why semiautomatic? Because i'm lazy, and couldn't think of a better name for this!🔥
+# 💡SSIRewritten
+#### 🧪A graphic installer for the famous Spotify tool, Spicetify🧪
+🔥Why semiautomatic? Because i'm lazy, and couldn't think of a better name for this!🔥
+<!---
 ## Compile yourself⌨️
-##### ⚠️TODO: write the tutorial on how to compile
+TODO: Write the guide on how to compile
+TODO TODO: In the guide, specify the prerequisites (like having Spotify.. lol)
+-->
 ## Releases🧫
 - [x] ~Release 1.0 (CLI and test GUI)~ *deleted because of the cpp rewrite process
 - [ ] Release 2.0 (GUI)
+<!-- wrongest spacer in code history -->
 ## Notes📝
-###### ⚠️The language switch from C# to C++ (and from WinForms to Qt) process has been paused (for now)
-###### ⚠️After the switch from C# to C++ and the full rewrite of ??/??/2024, SSI has become SSIR! (SSIRewritten)
+###### ⚠️After the 3(!) FULL REWRITES for the project, [check the timeline here](https://github.com/MaxWasTakenYT/SSIRewritten/), SSI has become SSIR (SSIRewritten)
