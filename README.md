@@ -1,5 +1,5 @@
 # 💡SSIRewritten
-#### 🧪A graphic installer for the famous Spotify tool, Spicetify🧪
+#### 🧪A graphic installer for the famous Spotify tool, Spicetify!🧪
 🔥Why semiautomatic? Because i'm lazy, and couldn't think of a better name for this!🔥
 <!-- wrongest spacer in code history -->
 ## Contribute💖
@@ -7,6 +7,7 @@ Any kind of help with the project is well accepted, if you have good web develop
 <!-- wrongest spacer in code history -->
 ## Releases🧫
 - [x] ~Release I2 (CLI and test GUI)~ *deleted because of the cpp rewrite process
+- [x] Debug release I3 (GUI)
 - [ ] Release I3 (GUI)
 <!-- wrongest spacer in code history -->
 ## Notes📝
