@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(#383838, #bababa);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Tl {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 100px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.sTl {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin-top: -18px;
+    margin-left: 33px;
+    margin-bottom: 30px;
+}
+
+.chkMark {
+    margin-left: 30px;
+}
+
+.chkBox {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+    margin-left: -3px;
+    margin-bottom: 15px;
+}
+
+.button {
+    /* button style stuff */
+    background-image: linear-gradient(#616161, #343434);
+    border-color: #cdcdcd;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 5px 38px;
+    /* button text stuff */
+    display: inline-block;
+    font-size: 23px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px white;
+    /* button "awful positioning as always"-stuff */
+    margin-top: 15px;
+    margin-left: 30px;
+    /* button stuff for hover anim */
+    transition-duration: 0.4s;
+    box-shadow: 0px 1px 4px black;
+}
+
+    .button:hover {
+        /* button hover anim */
+        background-image: linear-gradient(#909090, #c0c0c0);
+        color: white;
+        text-shadow: 0px 1px 3px black;
+        box-shadow: 0px 2px 16px black;
+    }
