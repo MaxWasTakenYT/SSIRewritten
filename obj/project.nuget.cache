@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oQSMvZ27X1k=",
+  "success": true,
+  "projectFilePath": "F:\\vscode REPOS\\a SSIRewritten WPF\\SSIRewritten\\SSIRewritten.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\massi\\.nuget\\packages\\microsoft.web.webview2\\1.0.2592.51\\microsoft.web.webview2.1.0.2592.51.nupkg.sha512",
+    "C:\\Users\\massi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
