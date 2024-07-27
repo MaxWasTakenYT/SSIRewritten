@@ -6,7 +6,7 @@
 Any kind of help with the project is well accepted, if you have good web development skills, consider helping in the website build, for more infos on the base design feel free to [open an issue.](https://github.com/MaxWasTakenYT/SSIRewritten/issues)
 <!-- wrongest spacer in code history -->
 ## Releases🧫
-- [x] ~Release I2 (CLI and test GUI)~ *deleted because of the cpp rewrite process
+- [x] ~Release I2 (CLI and test GUI)~ *deleted because of one of the rewrite processes
 - [x] Release I3 (GUI)
 <!-- wrongest spacer in code history -->
 ## Notes📝
