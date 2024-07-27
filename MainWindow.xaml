@@ -1,0 +1,12 @@
+﻿<Window x:Class="SSIRewritten.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="SSIRewritten Release I3" Height="530" Width="555">
+    <Grid>
+        <wv2:WebView2 Name="webView" Source="F:\vscode REPOS\a SSIRewritten WPF\SSIRewritten\web\index.html" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>
