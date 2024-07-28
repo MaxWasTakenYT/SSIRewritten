@@ -1,6 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.IO;
+using System.Windows;
 using Microsoft.Web.WebView2.Core;
-using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace SSIRewritten
@@ -16,13 +17,15 @@ namespace SSIRewritten
         private async void InitializeWebView()
         {
             await webView.EnsureCoreWebView2Async(null);
+            var htmlFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "web", "index.html");
+            webView.Source = new Uri(htmlFilePath, UriKind.Absolute);
             webView.CoreWebView2.WebMessageReceived += WebView_WebMessageReceived;
         }
 
         private void WebView_WebMessageReceived(object sender, CoreWebView2WebMessageReceivedEventArgs e)
         {
             var message = e.WebMessageAsJson;
-            dynamic json = JsonConvert.DeserializeObject(message);
+            dynamic json = Newtonsoft.Json.JsonConvert.DeserializeObject(message);
 
             if (json.action == "install")
             {
@@ -32,18 +35,18 @@ namespace SSIRewritten
                 if (installSpicetify && installMarketplace)
                 {
                     MessageBox.Show("installing Spicetify and Marketplace.. -~-*(# 3#)/*-~-");
-                    System.Diagnostics.Process.Start("powershell.exe", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex\"");
-                    System.Diagnostics.Process.Start("powershell.exe", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/marketplace/main/resources/install.ps1 | iex\"");
+                    Process.Start(new ProcessStartInfo("powershell", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex\"")).StandardOutput.ReadToEnd();
+                    Process.Start(new ProcessStartInfo("powershell", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/marketplace/main/resources/install.ps1 | iex\"")).StandardOutput.ReadToEnd();
                 }
                 else if (installSpicetify)
                 {
                     MessageBox.Show("installing Spicetify.. -~-*(SwS)/*-~-");
-                    System.Diagnostics.Process.Start("powershell.exe", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex\"");
+                    Process.Start(new ProcessStartInfo("powershell", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex\"")).StandardOutput.ReadToEnd();
                 }
                 else if (installMarketplace)
                 {
                     MessageBox.Show("installing Marketplace.. -~-*(MwM)/*-~-");
-                    System.Diagnostics.Process.Start("powershell.exe", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/marketplace/main/resources/install.ps1 | iex\"");
+                    Process.Start(new ProcessStartInfo("powershell", "-Command \"iwr -useb https://raw.githubusercontent.com/spicetify/marketplace/main/resources/install.ps1 | iex\"")).StandardOutput.ReadToEnd();
                 }
                 else
                 {
