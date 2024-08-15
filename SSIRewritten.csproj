@@ -10,23 +10,26 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>SSiR-TU2.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="web\index.html" />
     <None Remove="web\styles.css" />
+    <None Remove="web\Ubuntu.zip" />
   </ItemGroup>
 
   <ItemGroup>
     <COMReference Include="{bee4bfec-6683-3e67-9167-3c0cbc68f40a}">
       <WrapperTool>tlbimp</WrapperTool>
-      <VersionMinor>4</VersionMinor>
-      <VersionMajor>2</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <VersionMajor>9</VersionMajor>
       <Guid>bee4bfec-6683-3e67-9167-3c0cbc68f40a</Guid>
     </COMReference>
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="SSiR-TU2.ico" />
     <Content Include="web\index.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

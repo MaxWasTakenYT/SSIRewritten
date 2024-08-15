@@ -2,26 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>SSIRewritten</title>
 </head>
 <body class="body">
     <h1 class="Tl">SSIR</h1>
-    <h1 class="sTl">made by jstmax! with <3</h1>
+    <h1 class="sTl">running version TU2!</h1>
     <input type="checkbox" id="installScfy" class="chkMark" name="installScfy" value="installScfy">
     <label for="installScfy" class="chkBox">install Spicetify</label><br>
-    <input type="checkbox" id="instMtpc" class="chkMark" name="instMtpc" value="instMtpc">
-    <label for="instMtpc" class="chkBox">install Marketplace</label><br>
     <button id="instBtn" class="button">install!</button>
+    <!-- add uninstall button, will probably do for TU3 :) -->
 
     <script>
         document.getElementById('instBtn').addEventListener('click', () => {
             const installSpicetify = document.getElementById('installScfy').checked;
-            const installMarketplace = document.getElementById('instMtpc').checked;
             window.chrome.webview.postMessage({
                 action: 'install',
                 installSpicetify: installSpicetify,
-                installMarketplace: installMarketplace
             });
         });
     </script>

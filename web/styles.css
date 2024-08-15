@@ -1,15 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/*
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 555px;
+  height: 530px;
+  margin: 0 auto;
+}
+ >> Please do not uncomment the above code; it is only necessary on CodePen to force the resolution. :)
+*/
+
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 body {
-    background-image: linear-gradient(#383838, #bababa);
+    background-image: linear-gradient(#a8a8a8, #899c7c);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .Tl {
-    font-family: "Ubuntu";
-    font-weight: 300;
+    font-family: "Barlow";
+    font-weight: 400;
     font-size: 100px;
     color: white;
     margin-top: 35px;
@@ -18,9 +37,9 @@ body {
 }
 
 .sTl {
-    font-family: "Ubuntu";
-    font-weight: 300;
-    font-size: 18px;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 22px;
     color: white;
     margin-top: -18px;
     margin-left: 33px;
@@ -28,13 +47,13 @@ body {
 }
 
 .chkMark {
-    margin-left: 30px;
+    margin-left: 34px;
 }
 
 .chkBox {
-    font-family: "Ubuntu";
-    font-weight: 300;
-    font-size: 18px;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 19px;
     color: white;
     margin-top: 0px;
     margin-left: -3px;
@@ -43,32 +62,29 @@ body {
 
 .button {
     /* button style stuff */
-    background-image: linear-gradient(#616161, #343434);
-    border-color: #cdcdcd;
-    border-width: 1px;
+    border-color: #eaeaea;
+    border-width: 0px;
     border-radius: 0px;
-    padding: 5px 38px;
+    padding: 8px 64px;
     /* button text stuff */
     display: inline-block;
-    font-size: 23px;
-    font-family: "Ubuntu";
-    font-weight: 300;
-    color: white;
+    font-size: 19px;
+    font-family: "Barlow";
+    font-weight: 400;
+    color: #181818;
     text-align: center;
     text-decoration: none;
-    text-shadow: 0px 0px 4px white;
-    /* button "awful positioning as always"-stuff */
+    /* button's "awful positioning as always"-stuff */
     margin-top: 15px;
-    margin-left: 30px;
-    /* button stuff for hover anim */
+    margin-left: 34px;
+    /* button's stuff for hover anim */
     transition-duration: 0.4s;
-    box-shadow: 0px 1px 4px black;
+    box-shadow: 0px 1px 5px black;
 }
 
     .button:hover {
         /* button hover anim */
-        background-image: linear-gradient(#909090, #c0c0c0);
-        color: white;
-        text-shadow: 0px 1px 3px black;
-        box-shadow: 0px 2px 16px black;
+        border-color: #ffffff;
+        padding: 9px 66px;
+        box-shadow: 0px 0px 0px black;
     }
