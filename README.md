@@ -12,3 +12,5 @@ Any kind of help with the project is well accepted, for more information feel fr
 <!-- wrongest spacer in code history -->
 ## Notes📝
 ###### ⚠️After the 3(!) FULL REWRITES for the project, [check the timeline here](https://github.com/MaxWasTakenYT/SSIRewritten/blob/main/.fun-lore/timeline.md), SSI has become SSIR (SSIRewritten)
+<!-- Hey! if you fork this repo, uou can think about leaving the credits here :) -->
+###### 💚Main maintainer & original creator: { jstmax! } @ { 62 69 74 2E 6C 79 2F 6D 78 5F 69 6E 66 6F }
