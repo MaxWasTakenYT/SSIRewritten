@@ -1,4 +1,4 @@
-# 💡SSIRewritten
+![SSiR-logo](https://github.com/user-attachments/assets/0355ff9c-ecc9-4f02-a054-9c8529c1c209)
 #### 🧪A graphic installer for the famous Spotify tool, Spicetify!🧪
 🔥Why semiautomatic? Because i'm lazy, and couldn't think of a better name for this!🔥
 <!-- wrongest spacer in code history -->
