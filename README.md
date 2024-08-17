@@ -7,8 +7,8 @@ Any kind of help with the project is well accepted, for more information feel fr
 <!-- wrongest spacer in code history -->
 ## Releases🧫
 - [x] ~Release I2 (CLI and test GUI)~ *deleted because of one of the rewrite processes
-- [x] Release I3 (GUI)
-- [x] Release TU2 (GUI)
+- [x] [Release I3](https://github.com/MaxWasTakenYT/SSIRewritten/releases/tag/I3)
+- [x] [Release TU2](https://github.com/MaxWasTakenYT/SSIRewritten/releases/tag/TU2)
 <!-- wrongest spacer in code history -->
 ## Notes📝
 ###### ⚠️After the 3(!) FULL REWRITES for the project, [check the timeline here](https://github.com/MaxWasTakenYT/SSIRewritten/blob/main/.fun-lore/timeline.md), SSI has become SSIR (SSIRewritten)
