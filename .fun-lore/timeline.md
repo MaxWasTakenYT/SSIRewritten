@@ -20,7 +20,8 @@ It didn't go very far because, turns out that i'm not good (at all) at doing Win
 (I did manage to make a (literally unusable) mockup GUI with WinForms!)
 
 ### Idea [#2](): "C++ and Qt"
-I didn't know even a single bit of C++ (nor Qt) at the time, now i now the basics of both, but trust me (and my fresh experience), you _can't do it with the "basics" only_
+I didn't know even a single bit of C++ (nor Qt) at the time, now i now the basics of both, but trust me and my experience), you _can't do it with the "basics" only_
+###### 17/08/2024 update: i am actually studying C++ now so.. yeah
 <br></br>
 So i gave up because after finishing the GUI in Qt Design Studio (and filling up my whole disk because Qt needs like 40 gigs wtf)
 
