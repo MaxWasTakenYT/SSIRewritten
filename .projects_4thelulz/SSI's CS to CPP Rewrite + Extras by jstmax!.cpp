@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
     cout << "SSI's C# to C++ rewrite + extras - (SpicetifySemiautomaticInstaller)";
-    cout << "Do you want to install Spicetify? (y/n): ";
+    cout << "\nDo you want to install Spicetify? (y/n): ";
     string choiceInst;
     cin >> choiceInst;
     system("clear");
@@ -32,50 +32,44 @@ int main() {
             if (choiceLinuxDistro == "1") {
                 system("cls");
                 cout << "Installing Spicetify..";
-                string debianOutput = system("curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh");
-                cout << "\nConsole output: " << debianOutput;
+                system("curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh");
             }
             else if (choiceLinuxDistro == "2") {
-                system(cls);
+                system("cls");
                 cout << "Download from AUR with YAY? (y/n): ";
                 string choiceAur;
                 cin >> choiceAur;
                 if (choiceAur == "y") {
-                    string isRoot = system("whoami");
-                    if (isRoot == "root") {
+                    bool isRoot = (std::system("whoami") == 0);
+                    if (isRoot) {
                         cout << "Installing Spicetify through AUR..";
-                        string archAurChmod = system("sudo chmod a+wr /opt/spotify && sudo chmod a+wr /opt/spotify/Apps -R");
-                        cout << "\nConsole output: " << archAurChmod;
+                        system("sudo chmod a+wr /opt/spotify && sudo chmod a+wr /opt/spotify/Apps -R");
                     }
                     else {
                         cout << "Unable to continue without Root permissions, run this program with \"sudo\" or as Root and try again.";
                     }
-                    string archAurOutput = system("yay -S spicetify-cli");
-                    cout << "\nConsole output: " << archAurOutput;
+                    system("yay -S spicetify-cli");
                 }
                 else {
                     cout << "Installing Spicetify..";
-                    string archOutput = system("curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh");
-                    cout << "\nConsole output: " << archOutput;
+                    system("curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh");
                 }
             }
             else if (choiceLinuxDistro == "3") {
                 system("cls");
                 cout << "Installing Spicetify..";
-                string brewOutput = system("brew install spicetify-cli");
-                cout << "\nConsole output: " << brewOutput;
+                system("brew install spicetify-cli");
             }
         }
         else if (choiceOS == "2") {
             system("cls");
             cout << "Installing Spicetify..";
-            string winOutput = const char* command = "powershell.exe -Command \"iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex\"";
-            cout << "\nConsole output: " << winOutput;
+            const char* winPwrShlCmd = "powershell.exe -Command \"iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex\"";
+            system(winPwrShlCmd);
         }
         else if (choiceOS == "3") {
             cout << "Installing Spicetify..";
-            string macOutput = system("curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh");
-            cout << "Console output: " << macOutput;
+            system("curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh");
         }
     }
     else if (choiceInst == "n") {
